@@ -5,6 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a class="header__link header__link_active">главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#">посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a class="header__logo" href="#">
+        <img 
+          class="header__logo-image"
+          src="./images/logo-black.svg"
+          alt="Логотип проекта"
+        >
+      </a>
+      <div class="contacts">
+        <a href="tel:+70000000">+9 999 555 5555</a>
+        <a href="mailto:mail@example.com">info@sobaka.ge</a>
+        <address class="address header__address">
+          наб. Принсенграхт 263- 265, Амстердам
+        </address>
+      </div>
+    </header>
+    <main>
+      
+      <section class="cover">
+        <h1 class="cover__title">
+          <span class="aligned-text">о<span class="letter-spacing-extended">но</span></span>
+          <span class="aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
+          <span class="aligned-text_right"><span class="letter-spacing-extended no-letter-spacing">на</span>до</span>
+        </h1>
+        <div class="overlay"></div>
+        <div class="cover__description">
+          <h2 class="cover__description-text">Аукцион вещей, в которые никто не верил</h2>
+          <button class="bet-button">Сделать ставку</button>
+        </div>
+      </section>
+      <section class="lots">
+        <h1 class="lots__heading">Лоты</h1>
+          <ul class="lots__card-list">
+            <li class="lots__card-list-item">
+              <a href="#" class="card-link">
+                <div class="overlay"></div>
+                <article class="card card_type_film">
+                  <h2 class="card__title">Фильм режиссёра, который бросил киношколу</h2>
+                  <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>  
+                </article>
+              </a>
+            </li>
+            <li class="lots__card-list-item">
+              <a href="#" class="card-link">
+                <div class="overlay"></div>
+                <article class="card card_type_book">
+                  <h2 class="card__title ">Книга, где описан один скучный день из жизни рекламного агента</h2>
+                  <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>          
+                </article>
+              </a>
+            </li>
+            <li class="lots__card-list-item">
+              <a href="#" class="card-link">
+                <div class="overlay"></div>
+                <article class="card card_type_picture">
+                  <h2 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h2>
+                  <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>  
+                </article>
+              </a>
+            </li>
+          </ul>
+
+          <a class="lots__look-more-link" href="#">посмотреть больше</a>
+          
+      </section>
+      <section class="about">
+        <div class="about__column about__column-left">
+          <div class="about__logo">
+            <img 
+              class="about__logo-image" 
+              src="./images/logo-white.svg" 
+              alt="Изображение логотипа">
+          </div>        
+        </div>
+        <div class="about__column about__column-right"></div>
+
+      </section>
+    </main>
+    <footer class="footer">
+
+    </footer>
+  </body>
 </html>
