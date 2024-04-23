@@ -6,7 +6,6 @@
 
 .header {
   display: grid;
-  /*grid-template-columns: repeat(3, 1fr); */
   grid-template-columns: 430px auto 241px;
   padding: 92px 24px 96px;
   box-sizing: border-box;
@@ -29,10 +28,11 @@
   list-style: circle;
   display: flex;
   align-items: center;
+  text-underline-offset: 5px;
 }
 
 .header__links-list-item {
-  margin-right: 34px;
+  padding-right: 34px;
 }
 
 .header__links-list-item_no-bullit {
@@ -84,8 +84,6 @@
   background-image: url(../images/cover.jpg);
   background-size: cover;
   position: relative;
-  /* padding-top: 293px;
-    width: 1100px;*/
   height: 757px;
 }
 
@@ -105,25 +103,20 @@
 }
 
 .aligned-text {
-  display: block; /*делаем span строчным*/
+  display: block;
   padding-top: 170px;
   padding-left: 50px;
   letter-spacing: 0.3em;
-  /*width: 316px;
-  height: 115px;*/
 }
 
 .aligned-text_center {
-  display: block; /*делаем span строчным*/
-  /*   width: 369px;
-    height: 100px;
-    padding-top: 300px;*/
+  display: block;
   padding-left: 336px;
   letter-spacing: 0.3em;
 }
 
 .aligned-text_right {
-  display: block; /*делаем span строчным*/
+  display: block;
   padding-left: 633px;
   letter-spacing: 0.3em;
 }
@@ -213,16 +206,19 @@
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .card__title {
@@ -288,22 +284,22 @@
 }
 
 .about__text {
-  padding-top: 102px;
+  padding-top: 98px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
 }
 
 .about__text p.first-paragraph {
-  padding-bottom: 20px;
+  padding-bottom: 24px;
 }
 
 .letter-4 {
-  letter-spacing: 4%;
+  letter-spacing: 0.4em;
 }
 
 .letter-1 {
-  letter-spacing: 1%;
+  letter-spacing: 0.1em;
 }
 
 .lots__look-more-link {
@@ -335,7 +331,9 @@
 }
 
 .footer__column-right {
-  width: 240px;
+  width: 230px;
+  padding-left: 19px;
+  padding-top: 147px;
 }
 
 .footer__column-center {
@@ -352,6 +350,7 @@
   line-height: 21px;
   padding-top: 148px;
   padding-left: 20px;
+  text-underline-offset: 3px;
 }
 
 .footer__social-list {
@@ -363,7 +362,7 @@
 
 .footer__social-list-item {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: -30px;
 }
 
 .footer__social-icon {
