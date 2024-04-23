@@ -63,6 +63,7 @@
   text-decoration: underline;
   text-underline-offset: 0.2em;
   font-size: 18px;
+  font-style: normal;
 }
 
 .address {
@@ -294,11 +295,11 @@
   padding-bottom: 24px;
 }
 
-.letter-4 {
+.letter-wide {
   letter-spacing: 0.4em;
 }
 
-.letter-1 {
+.letter-narrow {
   letter-spacing: 0.1em;
 }
 
@@ -327,6 +328,8 @@
   padding-left: 1px;
   font-size: 18px;
   font-weight: 400;
+  font-style: normal;
+  text-underline-offset: 4px;
   line-height: 24px;
 }
 
@@ -351,6 +354,10 @@
   padding-top: 148px;
   padding-left: 20px;
   text-underline-offset: 3px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
 }
 
 .footer__social-list {
