@@ -91,6 +91,9 @@
 .cover__description {
   padding-top: 200px;
   padding-left: 78px;
+  display: inline;
+  position: relative;
+  z-index: 2;
 }
 
 .cover__title {
@@ -129,12 +132,6 @@
 .no-letter-spacing {
   display: inline-block;
   margin-right: -0.3em; /* Уменьшаем отступ справа на величину letter-spacing */
-}
-
-.cover__description {
-  display: inline;
-  position: relative;
-  z-index: 2;
 }
 
 .cover__description-text {
