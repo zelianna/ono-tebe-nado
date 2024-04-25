@@ -96,7 +96,7 @@
 }
 
 .cover__title {
-  padding: 163px 20px 10px 50px;
+  padding: 163px 50px 10px 50px;
   position: relative;
   z-index: 2;
   font-weight: 700;
@@ -119,8 +119,6 @@
 .aligned-text_center {
   display: block;
   text-align: center;
-  position: relative;
-  right: 15px;
 }
 
 .aligned-text_right {
